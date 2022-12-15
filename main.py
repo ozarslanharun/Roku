@@ -92,9 +92,9 @@ if __name__ == "__main__":
     url = "http://"+username+":"+accessToken+"@"+hub_url
     
     caps = {
-        "deviceName": "Roku Express",
+        "deviceName": "Roku Ultra",
         "platformVersion": "11",
-        # "fixedIP":"28001000-0000-1000-8000-bcd7d4349ceb",
+        "fixedIP":"28001000-0000-1000-8000-bcd7d4349ceb",
         "isRealMobile": True,
         "platformName": "roku",
         "build": "roku Parag new",
