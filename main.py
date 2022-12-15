@@ -97,7 +97,7 @@ if __name__ == "__main__":
         "fixedIP":"28001000-0000-1000-8000-bcd7d4349ceb",
         "isRealMobile": True,
         "platformName": "roku",
-        "build": "roku Parag new",
+        "build": "Roku Sanity",
         "name":"roku",
         # "app": "lt://APP10160202521666133222945745", # ip app
         "app": "roku", # channel app
