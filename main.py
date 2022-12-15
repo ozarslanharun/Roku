@@ -103,8 +103,9 @@ if __name__ == "__main__":
         "app": "roku", # channel app
         "video": True,
         "visual": True,
-        "devicelog": True,
-        "privateCloud": True
+        # "privateCloud": True,
+        "devicelog": True
+        
     }
     t1 = time.time()
     run(url, caps)
