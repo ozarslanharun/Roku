@@ -87,7 +87,7 @@ if __name__ == "__main__":
 
     # hub_url = "stage-mobile-hub-virginia.lambdatestinternal.com/v1/session"
 #     hub_url = "mobile-hub-internal.lambdatest.com/v1/session"
-    hub_url = "mobile-hub-internal.lambdatest.com/wd/hub"
+    hub_url = "mobile-hub-internal.lambdatest.com/wd/hub/session"
 
     url = "http://"+username+":"+accessToken+"@"+hub_url
     
