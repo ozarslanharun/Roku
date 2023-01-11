@@ -94,7 +94,7 @@ if __name__ == "__main__":
     caps = {
         "deviceName": "Roku Express",
         "platformVersion": "11",
-#         "fixedIP":"28001180-0000-1000-802c-20efbd6af8a7",
+        "fixedIP":"28000100-0000-1000-8000-84eaed3d0c8c",
         "isRealMobile": True,
         "platformName": "roku",
         "build": "Roku Sanity",
