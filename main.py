@@ -86,15 +86,15 @@ if __name__ == "__main__":
     accessToken = "mRY8s8vTCdx7mgHEluW4xPI4AR7IPMv2PkUpu3nH5kT32UyCvi"
 
     # hub_url = "stage-mobile-hub-virginia.lambdatestinternal.com/v1/session"
-    hub_url = "mobile-hub-internal.lambdatest.com/v1/session"
-    # hub_url = "mobile-hub-internal.lambdatest.com/wd/hub/session"
+#     hub_url = "mobile-hub-internal.lambdatest.com/v1/session"
+    hub_url = "mobile-hub-internal.lambdatest.com/wd/hub/session"
 
     url = "http://"+username+":"+accessToken+"@"+hub_url
     
     caps = {
-        "deviceName": "Roku Ultra",
+        "deviceName": "Roku Express",
         "platformVersion": "11",
-#         "fixedIP":"28001000-0000-1000-8000-bcd7d4407048",
+        "fixedIP":"28001180-0000-1000-802c-20efbd6af8a7",
         "isRealMobile": True,
         "platformName": "roku",
         "build": "Roku Sanity",
