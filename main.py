@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
     # QA prod
     username = "qadevops"
-    accessToken = "qTleEcWfO6YIq9CFxcX9fZXMpRSTEYvUpAA1OxkjiSRz2HKp4I"
+    accessToken = "mRY8s8vTCdx7mgHEluW4xPI4AR7IPMv2PkUpu3nH5kT32UyCvi"
 
     # hub_url = "stage-mobile-hub-virginia.lambdatestinternal.com/v1/session"
     hub_url = "mobile-hub-internal.lambdatest.com/v1/session"
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     caps = {
         "deviceName": "Roku Ultra",
         "platformVersion": "11",
-        "fixedIP":"28001000-0000-1000-8000-bcd7d4349ceb",
+        "fixedIP":"28001000-0000-1000-8000-bcd7d4407048",
         "isRealMobile": True,
         "platformName": "roku",
         "build": "Roku Sanity",
@@ -103,7 +103,7 @@ if __name__ == "__main__":
         "app": "roku", # channel app
         "video": True,
         "visual": True,
-        # "privateCloud": True,
+        "privateCloud": True,
         "devicelog": True
         
     }
