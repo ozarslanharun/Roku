@@ -82,22 +82,21 @@ if __name__ == "__main__":
     # accessToken = "rg0Rh8hx9uYCHrZEXtQ9XYf2eCIKfMbIO2VLO1gyaxTA659zGJ"
 
     # QA prod
-    username = "qadevops"
-    accessToken = "mRY8s8vTCdx7mgHEluW4xPI4AR7IPMv2PkUpu3nH5kT32UyCvi"
+    username = "monerohith"
+    accessToken = "HHgY0ALRB8xtDXhdgbi14CbD3hZeVhAgAiwMAg9gCSivwfeo5x"
 
     # hub_url = "stage-mobile-hub-virginia.lambdatestinternal.com/v1/session"
-#     hub_url = "mobile-hub-internal.lambdatest.com/v1/session"
-    hub_url = "mobile-hub-internal.lambdatest.com/wd/hub/session"
+    hub_url = "stage-mobile-hub.lambdatestinternal.com/wd/hub/session"
 
     url = "http://"+username+":"+accessToken+"@"+hub_url
     
     caps = {
         "deviceName": "Roku Ultra",
         "platformVersion": "11",
-        "fixedIP":"28001000-0000-1000-804d-bcd7d432f7ad",
+#         "fixedIP":"28001000-0000-1000-804d-bcd7d432f7ad",
         "isRealMobile": True,
         "platformName": "roku",
-        "build": "Roku Sanity",
+        "build": "Roku Build",
         "name":"roku",
         # "app": "lt://APP10160202521666133222945745", # ip app
         "app": "roku", # channel app
