@@ -91,18 +91,18 @@ if __name__ == "__main__":
     url = "http://"+username+":"+accessToken+"@"+hub_url
     
     caps = {
-        "deviceName": "Roku Ultra",
+        "deviceName": "Roku Express",
         "platformVersion": "11",
 #         "fixedIP":"28001000-0000-1000-804d-bcd7d432f7ad",
         "isRealMobile": True,
         "platformName": "roku",
         "build": "Roku Build",
         "name":"roku",
-        # "app": "lt://APP10160202521666133222945745", # ip app
-        "app": "roku", # channel app
+        "app": "lt://APP1010445771673879095916264",
+#         "app": "roku", # channel app
         "video": True,
         "visual": True,
-        "privateCloud": True,
+#         "privateCloud": True,
         "devicelog": True
         
     }
